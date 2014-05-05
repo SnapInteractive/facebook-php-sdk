@@ -715,8 +715,6 @@ abstract class BaseFacebook
         $this->clearPersistentData('state');
         return $_REQUEST['code'];
     }
-    self::errorLog('CSRF state token does not match one provided.');
-
     return false;
   }
 
