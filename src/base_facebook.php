@@ -627,7 +627,7 @@ abstract class BaseFacebook
 
     return $this->getUrl(
       'www',
-      'dialog/oauth',
+      'v2.1/dialog/oauth',
       array_merge(
         array(
           'client_id' => $this->getAppId(),
